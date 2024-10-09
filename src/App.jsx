@@ -23,7 +23,7 @@ export default function TodoList() {
     const newLevel = level + foodLevel;
 
     if (newLevel > 100) {
-      setImage("bangdung.png"); 
+      setImage("bangdung.jpg"); 
     }
 
     setLevel(newLevel);
@@ -36,7 +36,7 @@ export default function TodoList() {
       <img
         className="avatar"
         src={image}
-        alt="bangdung.png"
+        alt="bangdung.jpg"
         style={{
           width: `${size}px`,
           height: `${size}px`,
